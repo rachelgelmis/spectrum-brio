@@ -15,6 +15,14 @@ import Register from "views/Register.jsx";
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
 
+//Template for new page routing
+//<Route path="/DesiredURL" exact render={props => <Landing {...props} />} />
+//<Route
+//      path="/<pageName> from the import you did above"
+//      exact
+//render={props => <Landing {...props} />}  //LEAVE THIS THE SAME
+//  />
+
 
 ReactDOM.render(
     <BrowserRouter>
@@ -25,6 +33,10 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
+
+
+
+
             <Route path="/timer" exact render={props => <Landing {...props} />} />
 
             <Redirect to="/" />
