@@ -12,6 +12,9 @@ import Login from "views/Login.jsx";
 import Profile from "views/Profile.jsx";
 import Register from "views/Register.jsx";
 
+//ADD PAGES BY FOLLOWING UP SYNTAX
+//import <pageName> from "views/<fileName>.jsx"
+
 
 ReactDOM.render(
     <BrowserRouter>
@@ -22,17 +25,8 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-            <Route path="/login-page" exact render={props => <Login {...props} />} />
-            <Route
-                path="/profile-page"
-                exact
-                render={props => <Profile {...props} />}
-            />
-            <Route
-                path="/register-page"
-                exact
-                render={props => <Register {...props} />}
-            />
+            <Route path="/timer" exact render={props => <Landing {...props} />} />
+
             <Redirect to="/" />
         </Switch>
     </BrowserRouter>,
