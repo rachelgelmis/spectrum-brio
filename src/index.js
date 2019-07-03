@@ -8,9 +8,8 @@ import "assets/scss/argon-design-system-react.scss";
 
 import Index from "views/Index.jsx";
 import Landing from "views/Landing.jsx";
+import JohnTimer from "views/JohnTimer.jsx";
 import Login from "views/Login.jsx";
-import Profile from "views/Profile.jsx";
-import Register from "views/Register.jsx";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -33,7 +32,18 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-
+            <Route path="/JohnTimer" exact render={props => <JohnTimer {...props} />} />
+            <Route
+                path="/JohnTimer"
+                exact
+                render={props => <JohnTimer {...props} />}
+            />
+            <Route path="/login" exact render={props => <Login {...props} />} />
+            <Route
+                path="/Login"
+                exact
+                render={props => <Login {...props} />}
+            />
 
 
 
