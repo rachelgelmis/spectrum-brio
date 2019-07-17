@@ -13,7 +13,7 @@ export default class TimerDisplay extends Component {
     return (
       <div className="timerdisplay">
           <h2 className="text-center">
-            {`${leftPad(this.props.currentTime.get('hours'))}:${leftPad(this.props.currentTime.get('minutes'))}:${leftPad(this.props.currentTime.get('seconds'))}`}
+            {`${leftPad(this.props.currentTime.get('minutes'))}:${leftPad(this.props.currentTime.get('seconds'))}`}
           </h2>
       </div>
     )

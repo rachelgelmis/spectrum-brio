@@ -58,12 +58,13 @@ export default class Timer extends Component {
       timerState: timerStates.COMPLETE,
       timer: null
     });
+
+    alert("Time is up!")
   }
 
   reduceTimer() {
 
-    if (this.state.currentTime.get('hours') === 0 
-    && this.state.currentTime.get('minutes') === 0 
+    if (this.state.currentTime.get('minutes') === 0 
     && this.state.currentTime.get('seconds') === 0) {
       this.completeTimer();
       return;
