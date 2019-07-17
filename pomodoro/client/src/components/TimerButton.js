@@ -11,21 +11,21 @@ export default class TimerButton extends Component {
 
   getButton() {
     if (this.props.timerState === timerStates.NOT_SET) {
-      return (<h4 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} 
-      className="btn btn-success"
-      onClick={this.props.startTimer}>Set Timer</h4>)
+      return (<h4 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <button className="btn btn-success"
+      onClick={this.props.startTimer}>Set Timer</button></h4>)
     }
 
     if (this.props.timerState === timerStates.RUNNING) {
-      return (<h4 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} 
-      className="btn btn-danger"
-      onClick={this.props.stopTimer}>Stop Timer</h4>)
+      return (<h4 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <button className="btn btn-danger"
+      onClick={this.props.stopTimer}>Stop Timer</button></h4>)
     }
 
     if (this.props.timerState === timerStates.COMPLETE) {
-      return (<h4 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} 
-      className="btn btn-info"
-      onClick={this.props.stopTimer}>Reset</h4>)
+      return (<h4 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}> 
+      <button className="btn btn-info"
+      onClick={this.props.stopTimer}>Reset</button></h4>)
     }
 
   }
