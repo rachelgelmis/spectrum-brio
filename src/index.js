@@ -11,6 +11,8 @@ import Landing from "views/Landing.jsx";
 import Login from "views/Login.jsx";
 import Profile from "views/Profile.jsx";
 import Register from "views/Register.jsx";
+//import <pageName> from view/<pageName>.jsx";
+import timer from "Views/timerFreya.jsx";
 
 
 ReactDOM.render(
@@ -19,6 +21,12 @@ ReactDOM.render(
             <Route path="/" exact render={props => <Landing {...props} />} />
             <Route
                 path="/landing-page"
+                exact
+                render={props => <Landing {...props} />}
+            />
+            <Route path="/timer" exact render={props => <Landing {...props} />} />
+            <Route
+                path="/timerFreya"
                 exact
                 render={props => <Landing {...props} />}
             />
