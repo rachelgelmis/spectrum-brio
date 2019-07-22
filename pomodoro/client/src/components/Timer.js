@@ -64,10 +64,11 @@ export default class Timer extends Component {
 
   reduceTimer() {
 
-    if (this.state.currentTime.get('minutes') === 0 
-    && this.state.currentTime.get('seconds') === 0) {
-      this.completeTimer();
-      return;
+    if (this.state.currentTime.get('hours') === 0 &&
+        this.state.currentTime.get('minutes') === 0 
+        && this.state.currentTime.get('seconds') === 0) {
+          this.completeTimer();
+          return;
     }
 
     const newTime = moment.duration(this.state.currentTime);

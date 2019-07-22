@@ -8,6 +8,7 @@ export default class TimerConfig extends Component {
     super();
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleChange2 = this.handleChange2.bind(this);
   }
 
   handleChange(event) {
@@ -27,9 +28,17 @@ export default class TimerConfig extends Component {
     if (event.target.id === 'workday') {
       var numMins = parseInt(event.target.value) * 60;
       var minsPerCup = numMins / numCups;
+      var hrs = Math.floor(minsPerCup / 60);
+      var mins = Math.floor(minsPerCup % 60);
       console.log(numMins);
-      console.log(minsPerCup)
+      console.log(minsPerCup);
+      console.log(hrs);
+      console.log(mins);
+      newBaseTime.subtract(newBaseTime.get('hours')).add(hrs, 'hours');
+      newBaseTime.subtract(newBaseTime.get('minutes')).add(mins, 'minutes');
+      
     }
+    this.props.setBaseTime(newBaseTime);
   }
 
   render() {
@@ -41,6 +50,7 @@ export default class TimerConfig extends Component {
               defaultValue={this.props.baseTime.get('minutes')} onChange={this.handleChange}></input>
               <select id="workday" min="6" max="12" className="form-control"
               defaultValue={this.props.baseTime.get('hours')} onChange={this.handleChange2}>
+                <option value="1">1</option>
                 <option value="6">6</option>
                 <option value="7">7</option>
                 <option value="8">8</option>

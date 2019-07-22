@@ -16,12 +16,15 @@ export default class Timer extends Component {
       baseTime: moment.duration(25, 'minutes'),
       timerState: timerStates.NOT_SET,
       timer: null,
+      count: 8,
     }
 
     this.setBaseTime = this.setBaseTime.bind(this);
     this.startTimer = this.startTimer.bind(this);
     this.stopTimer = this.stopTimer.bind(this);
     this.reduceTimer = this.reduceTimer.bind(this);
+    this.reduceCount = this.reduceCount.bind(this);
+    this.resetCount = this.resetCount.bind(this);
   }
 
   setBaseTime(newBaseTime) {
@@ -59,14 +62,25 @@ export default class Timer extends Component {
       timer: null
     });
 
-    alert("Time is up!")
+    alert("Time is up! Drink your last cup of water")
   }
 
   reduceTimer() {
-
-    if (this.state.currentTime.get('minutes') === 0 
-    && this.state.currentTime.get('seconds') === 0) {
+    if (this.state.currentTime.get('hours') === 0 
+    && this.state.currentTime.get('minutes') === 0 
+    && this.state.currentTime.get('seconds') === 0
+    && this.state.count === 1) {
       this.completeTimer();
+      this.resetCount();
+      return;
+    }
+
+    else if (this.state.currentTime.get('hours') === 0 
+    && this.state.currentTime.get('minutes') === 0 
+    && this.state.currentTime.get('seconds') === 0) {
+      this.reduceCount();
+      this.stopTimer();
+      alert("Time for Water: Cup " + (8 - this.state.count));
       return;
     }
 
@@ -76,6 +90,22 @@ export default class Timer extends Component {
     this.setState({
       currentTime: newTime
     })
+  }
+
+  reduceCount() {
+    if (this.state.count !== 0) {
+      this.setState({
+        count: this.state.count - 1
+      })
+    }
+    return;
+  }
+
+  resetCount() {
+    this.setState({
+      count: 8
+    })
+    return;
   }
 
   render() {
