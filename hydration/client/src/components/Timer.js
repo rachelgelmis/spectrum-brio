@@ -12,8 +12,8 @@ export default class Timer extends Component {
   constructor() {
     super()
     this.state = {
-      currentTime: moment.duration(1, 'seconds'),
-      baseTime: moment.duration(1, 'seconds'),
+      currentTime: moment.duration(25, 'minutes'),
+      baseTime: moment.duration(25, 'minutes'),
       timerState: timerStates.NOT_SET,
       timer: null,
     }
