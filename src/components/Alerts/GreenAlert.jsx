@@ -2,6 +2,7 @@ import React from "react";
 import {Alert} from "reactstrap";
 
 
+
 class GreenAlert extends React.Component{
     constructor(props){
         super(props);
@@ -27,6 +28,10 @@ class GreenAlert extends React.Component{
                 </div>
 
             </Alert>
+
+
+
+
 
         );
     }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import GreenAlert from "components/Alerts/GreenAlert.jsx"
+import CardsFooter from "components/Footers/CardsFooter.jsx"
 
 import {
     Button,
@@ -16,7 +17,8 @@ import {
     Container,
     Row,
     Col,
-    Jumbotron
+    Jumbotron,
+    UncontrolledAlert
 } from "reactstrap";
 
 class johnTimer extends React.Component {
@@ -32,12 +34,26 @@ class johnTimer extends React.Component {
             alert: 'green'
         };
 
+        let x = this.timeForWater();
+
         this.setTimeForCode = this.setTime.bind(this, 1500);
+        this.setTimeForWater = this.setTime.bind(this, x);
         this.setTimeForSocial = this.setTime.bind(this, 300);
         this.setTimeForCoffee = this.setTime.bind(this, 900);
         this.reset = this.reset.bind(this);
         this.play = this.play.bind(this);
         this.elapseTime = this.elapseTime.bind(this);
+
+
+
+    }
+
+
+    timeForWater(){
+        let waterTime = 400;
+
+        return waterTime;
+
     }
 
     componentDidMount() {
@@ -68,7 +84,9 @@ class johnTimer extends React.Component {
         return [
             {type: "code", time: 1500},
             {type: "social", time: 300},
-            {type: "coffee", time: 900}
+            {type: "coffee", time: 900},
+            {type: "water", time: 1700}
+
         ];
     }
 
@@ -160,14 +178,7 @@ class johnTimer extends React.Component {
         }
     }
 
-    _setLocalStorage(item, element) {
-        let value = element.target.checked;
-        localStorage.setItem('react-pomodoro-' + item, value);
-    }
 
-    _getLocalStorage(item) {
-        return (localStorage.getItem('react-pomodoro-' + item) == 'true') ? true : false;
-    }
 
     alert(){
         if(this.alert === 'green'){
@@ -219,8 +230,9 @@ class johnTimer extends React.Component {
                                                 <div className="text-center mb-4">
                                                     <medium>What Time Is It?</medium>
                                                 </div>
-                                                    <Row>
+                                                    <Row className="justify-content-center">
                                                         <Button color="outline-primary" onClick={this.setTimeForCode}>Work</Button>
+                                                        <Button color="outline-primary" onClick={this.setTimeForWater}>Water</Button>
                                                         <Button color="outline-primary" onClick={this.setTimeForSocial}>Social</Button>
                                                         <Button color="outline-primary" onClick={this.setTimeForCoffee}>Coffee</Button>
                                                     </Row>
@@ -232,37 +244,16 @@ class johnTimer extends React.Component {
                                         </Row>
                                     </Col>
                                 </Row>
+
+
                             </Container>
                         </section>
+
+
                     </main>
+                    <CardsFooter/>
 
-                <section>
-                    <Container>
-                        <Jumbotron>
-                            <h1>Pomodoro</h1>
-                            <h1>{this.format(this.state.time)}</h1>
-                            <span className="timeType">The {this.formatType(this.state.timeType)} time!</span>
-                            <p>
-                                This is a simple hero unit, a simple jumbotron-style component for calling
-                                extra attention to featured content or information.
-                            </p>
-                            <Row>
 
-                                <Button color="primary" onClick={this.play}>Start</Button>
-                                <Button color="warning" onClick={this.reset}>Pause</Button>
-                                <Button color="alert" onClick={this.alert}>alert</Button>
-
-                            </Row>
-                            <br/>
-                            <Row>
-                                <Button color="outline-primary" onClick={this.setTimeForCode}>Work</Button>
-                                <Button color="outline-primary" onClick={this.setTimeForSocial}>Social</Button>
-                                <Button color="outline-primary" onClick={this.setTimeForCoffee}>Coffee</Button>
-
-                            </Row>
-                        </Jumbotron>
-                    </Container>
-                </section>
             </>
 
 

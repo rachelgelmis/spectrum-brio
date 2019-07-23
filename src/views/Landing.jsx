@@ -30,7 +30,7 @@ import {
 
 // core components
 
-import CardsFooter from "components/Footers/CardsFooter.jsx";
+import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
 
 // index page sections
 import Download from "./IndexSections/Download.jsx";
@@ -46,6 +46,7 @@ class Landing extends React.Component {
     return (
       <>
         <main ref="main">
+            <DemoNavbar />
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
@@ -610,12 +611,11 @@ class Landing extends React.Component {
                   <Row className="align-items-center">
                     <Col lg="8">
                       <h3 className="text-white">
-                        We made website building easier for you.
+                        Check us out on GitHub!
                       </h3>
                       <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
+                        Lots of care and love went into creating the perfect one-stop-shop for all things regarding the physical, mental, and social
+                          welfare of Charter employees.
                       </p>
                     </Col>
                     <Col className="ml-lg-auto" lg="3">
@@ -623,10 +623,14 @@ class Landing extends React.Component {
                         block
                         className="btn-white"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://github.com/alexchen1999/spectrum-brio"
                         size="lg"
                       >
-                        Download React
+
+                             <i className="fa fa-github" />
+
+                          <span>  </span>
+                        Our Github
                       </Button>
                     </Col>
                   </Row>

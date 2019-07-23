@@ -10,6 +10,7 @@ import Index from "views/Index.jsx";
 import Landing from "views/Landing.jsx";
 import JohnTimer from "views/JohnTimer.jsx";
 import Login from "views/Login.jsx";
+import GymTracker from "views/GymTracker.jsx";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -38,11 +39,17 @@ ReactDOM.render(
                 exact
                 render={props => <JohnTimer {...props} />}
             />
-            <Route path="/login" exact render={props => <Login {...props} />} />
+            <Route path="/GymTracker" exact render={props => <GymTracker {...props} />} />
             <Route
-                path="/Login"
+                path="/GymTracker"
                 exact
-                render={props => <Login {...props} />}
+                render={props => <GymTracker {...props} />}
+            />
+            <Route path="/Index" exact render={props => <Index {...props} />} />
+            <Route
+                path="/Index"
+                exact
+                render={props => <Index {...props} />}
             />
 
 
