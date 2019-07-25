@@ -11,6 +11,7 @@ import Landing from "views/Landing.jsx";
 import Login from "views/Login.jsx";
 import Profile from "views/Profile.jsx";
 import Register from "views/Register.jsx";
+import JohnTimer from "views/JohnTimer";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -32,6 +33,13 @@ ReactDOM.render(
                 path="/landing-page"
                 exact
                 render={props => <Landing {...props} />}
+            />
+
+<Route path="/john" exact render={props => <JohnTimer {...props} />} />
+            <Route
+                path="/john"
+                exact
+                render={props => <JohnTimer {...props} />}
             />
             
             <Route path="/timer" exact render={props => <Landing {...props} />} />

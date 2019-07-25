@@ -60,8 +60,9 @@
     "react-router": "5.0.0",
     "react-router-dom": "5.0.0",
     "react-scripts": "3.0.0",
+    "react-select-search": "^0.9.6",
     "react-title-component": "^1.0.1",
-    "reactstrap": "8.0.0"
+    "reactstrap": "^8.0.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.30.19",
