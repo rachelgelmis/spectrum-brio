@@ -8,9 +8,9 @@ import "assets/scss/argon-design-system-react.scss";
 
 import Index from "views/Index.jsx";
 import Landing from "views/Landing.jsx";
+import JohnTimer from "views/JohnTimer.jsx";
 import Login from "views/Login.jsx";
-import Profile from "views/Profile.jsx";
-import Register from "views/Register.jsx";
+import GymTracker from "views/GymTracker.jsx";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -33,10 +33,31 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-            
+
+            <Route path="/JohnTimer" exact render={props => <JohnTimer {...props} />} />
+            <Route
+                path="/JohnTimer"
+                exact
+                render={props => <JohnTimer {...props} />}
+            />
+            <Route path="/GymTracker" exact render={props => <GymTracker {...props} />} />
+            <Route
+                path="/GymTracker"
+                exact
+                render={props => <GymTracker {...props} />}
+            />
+  
             <Route path="/timer" exact render={props => <Landing {...props} />} />
 
             <Redirect to="/" />
+            <Route path="/Index" exact render={props => <Index {...props} />} />
+            <Route
+                path="/Index"
+                exact
+                render={props => <Index {...props} />}
+            />
+
+
         </Switch>
     </BrowserRouter>,
     document.getElementById("root")
