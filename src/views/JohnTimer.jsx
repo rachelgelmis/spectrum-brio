@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import GreenAlert from "components/Alerts/GreenAlert.jsx"
 import CardsFooter from "components/Footers/CardsFooter.jsx"
+import StandingIcon from "assets/img/icons/common/standing.png";
+import SittingIcon from "assets/img/icons/common/sit.png";
 
 import {
     Button,
@@ -31,15 +33,15 @@ class johnTimer extends React.Component {
             play: false,
             timeType: 0,
             title: '',
-            alert: 'green'
+            alert: 'green',
+            standing: ''
         };
 
         let x = this.timeForWater();
 
-        this.setTimeForCode = this.setTime.bind(this, 1500);
+        this.setTimeForCode = this.setTime.bind(this, (45 * 60));
         this.setTimeForWater = this.setTime.bind(this, x);
-        this.setTimeForSocial = this.setTime.bind(this, 300);
-        this.setTimeForCoffee = this.setTime.bind(this, 900);
+
         this.reset = this.reset.bind(this);
         this.play = this.play.bind(this);
         this.elapseTime = this.elapseTime.bind(this);
@@ -50,7 +52,7 @@ class johnTimer extends React.Component {
 
 
     timeForWater(){
-        let waterTime = 400;
+        let waterTime = 15 * 60;
 
         return waterTime;
 
@@ -211,13 +213,14 @@ class johnTimer extends React.Component {
                                 <span />
                             </div>
                             <Container className="pt-lg-md">
-                                <GreenAlert />
                                 <Row className="justify-content-center">
                                     <Col lg="5">
                                         <Card className="bg-secondary shadow border-0">
                                             <CardHeader className="bg-white pb-5">
                                                 <div className="text-center text-muted mb-4">
                                                     <h1>{this.format(this.state.time)}</h1>
+                                                    <img src={StandingIcon} />
+                                                    <img src={SittingIcon} />
                                                 </div>
                                                 <div className="btn-wrapper text-center">
                                                     <Button color="primary" onClick={this.play}>Start</Button>
@@ -231,10 +234,9 @@ class johnTimer extends React.Component {
                                                     <medium>What Time Is It?</medium>
                                                 </div>
                                                     <Row className="justify-content-center">
-                                                        <Button color="outline-primary" onClick={this.setTimeForCode}>Work</Button>
-                                                        <Button color="outline-primary" onClick={this.setTimeForWater}>Water</Button>
-                                                        <Button color="outline-primary" onClick={this.setTimeForSocial}>Social</Button>
-                                                        <Button color="outline-primary" onClick={this.setTimeForCoffee}>Coffee</Button>
+                                                        <Button color="outline-primary" onClick={this.setTimeForCode}>Time To Sit</Button>
+                                                        <Button color="outline-primary" onClick={this.setTimeForWater}>Time To Stand</Button>
+
                                                     </Row>
 
                                             </CardBody>
