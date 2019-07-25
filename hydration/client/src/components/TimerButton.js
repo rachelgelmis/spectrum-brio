@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import * as timerStates from '../timerStates';
+import * as timerStates from '../../../../src/components/Timers/timerStates';
 
 export default class TimerButton extends Component {
   constructor() {

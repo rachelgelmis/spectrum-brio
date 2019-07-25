@@ -5,7 +5,7 @@ import TimerDisplay from './TimerDisplay';
 import TimerButton from './TimerButton';
 import TimerConfig from './TimerConfig';
 import moment from 'moment';
-import * as timerStates from '../timerStates';
+import * as timerStates from '../../../../src/components/Timers/timerStates';
 
 export default class Timer extends Component {
 
