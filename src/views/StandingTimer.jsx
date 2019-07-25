@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import GreenAlert from "components/Alerts/GreenAlert.jsx"
 import CardsFooter from "components/Footers/CardsFooter.jsx"
+import StandingIcon from "assets/img/icons/common/standing-desk.png";
+import SittingIcon from "assets/img/icons/common/1.png";
 
 import {
     Button,
@@ -21,7 +23,7 @@ import {
     UncontrolledAlert
 } from "reactstrap";
 
-class johnTimer extends React.Component {
+class StandingTimer extends React.Component {
 
 
     constructor() {
@@ -31,27 +33,32 @@ class johnTimer extends React.Component {
             play: false,
             timeType: 0,
             title: '',
-            alert: 'green'
+            alert: 'green',
+            imgUrl: StandingIcon
         };
 
         let x = this.timeForWater();
+        let y = this.timeForStanding();
 
-        this.setTimeForCode = this.setTime.bind(this, 1500);
+        this.setTimeForCode = this.setTime.bind(this, y);
         this.setTimeForWater = this.setTime.bind(this, x);
-        this.setTimeForSocial = this.setTime.bind(this, 300);
-        this.setTimeForCoffee = this.setTime.bind(this, 900);
+
         this.reset = this.reset.bind(this);
         this.play = this.play.bind(this);
         this.elapseTime = this.elapseTime.bind(this);
-
+        this.setImg = this.setImg.bind(this);
 
 
     }
 
-
+    timeForStanding(){
+        let standingTime = 1 * 60;
+        this.setImg(StandingIcon);
+        return standingTime;
+    }
     timeForWater(){
-        let waterTime = 400;
-
+        let waterTime = 15 * 60;
+        this.setImg(SittingIcon);
         return waterTime;
 
     }
@@ -71,6 +78,12 @@ class johnTimer extends React.Component {
             let newState = this.state.time - 1;
             this.setState({time: newState, title: this.getTitle(newState)});
         }
+    }
+
+    setImg(img) {
+        this.setState({
+            imgUrl: img
+        })
     }
 
     format(seconds) {
@@ -137,19 +150,21 @@ class johnTimer extends React.Component {
             time: newTime,
             timeType: newTime,
             title: this.getTitle(newTime),
-            play: true
+            play: true,
+            imgUrl: StandingIcon
         });
     }
 
     setDefaultTime() {
-        let defaultTime = 1500;
+        let defaultTime = 45 * 60;
 
         this.setState({
             time: defaultTime,
             timeType: defaultTime,
             title: this.getTitle(defaultTime),
             play: false,
-            alert: 'green'
+            alert: 'green',
+            imgUrl: SittingIcon
         });
     }
 
@@ -195,63 +210,63 @@ class johnTimer extends React.Component {
         return(
 
 
-                <>
+            <>
 
-                    <main ref="main">
+                <main ref="main">
 
-                        <section className="section section-shaped section-lg">
-                            <div className="shape shape-style-1 bg-gradient-default">
-                                <span />
-                                <span />
-                                <span />
-                                <span />
-                                <span />
-                                <span />
-                                <span />
-                                <span />
-                            </div>
-                            <Container className="pt-lg-md">
-                                <GreenAlert />
-                                <Row className="justify-content-center">
-                                    <Col lg="5">
-                                        <Card className="bg-secondary shadow border-0">
-                                            <CardHeader className="bg-white pb-5">
-                                                <div className="text-center text-muted mb-4">
-                                                    <h1>{this.format(this.state.time)}</h1>
-                                                </div>
-                                                <div className="btn-wrapper text-center">
-                                                    <Button color="primary" onClick={this.play}>Start</Button>
-                                                    <Button color="warning" onClick={this.reset}>Pause</Button>
+                    <section className="section section-shaped section-lg">
+                        <div className="shape shape-style-1 bg-gradient-default">
+                            <span />
+                            <span />
+                            <span />
+                            <span />
+                            <span />
+                            <span />
+                            <span />
+                            <span />
+                        </div>
+                        <Container className="pt-lg-md">
+                            <Row className="justify-content-center">
+                                <Col lg="5">
+                                    <Card className="bg-secondary shadow border-0">
+                                        <CardHeader className="bg-white pb-5">
+                                            <div className="text-center text-muted mb-4">
+                                                <h1>{this.format(this.state.time)}</h1>
+                                                <img src={this.state.imgUrl} />
 
-
-                                                </div>
-                                            </CardHeader>
-                                            <CardBody className="px-lg-5 py-lg-5">
-                                                <div className="text-center mb-4">
-                                                    <medium>What Time Is It?</medium>
-                                                </div>
-                                                    <Row className="justify-content-center">
-                                                        <Button color="outline-primary" onClick={this.setTimeForCode}>Work</Button>
-                                                        <Button color="outline-primary" onClick={this.setTimeForWater}>Water</Button>
-                                                        <Button color="outline-primary" onClick={this.setTimeForSocial}>Social</Button>
-                                                        <Button color="outline-primary" onClick={this.setTimeForCoffee}>Coffee</Button>
-                                                    </Row>
-
-                                            </CardBody>
-                                        </Card>
-                                        <Row className="mt-3">
-
-                                        </Row>
-                                    </Col>
-                                </Row>
+                                            </div>
+                                            <div className="btn-wrapper text-center">
+                                                <Button color="primary" onClick={this.play}>Start</Button>
+                                                <Button color="warning" onClick={this.reset}>Pause</Button>
 
 
-                            </Container>
-                        </section>
+                                            </div>
+                                        </CardHeader>
+                                        <CardBody className="px-lg-5 py-lg-5">
+                                            <div className="text-center mb-4">
+                                                <medium>What Time Is It?</medium>
+                                            </div>
+                                            <Row className="justify-content-center">
+                                                <Button color="outline-primary" onClick={this.setTimeForCode}>Time To Sit</Button>
+                                                <Button color="outline-primary" onClick={this.setTimeForWater}>Time To Stand</Button>
+
+                                            </Row>
+
+                                        </CardBody>
+                                    </Card>
+                                    <Row className="mt-3">
+
+                                    </Row>
+                                </Col>
+                            </Row>
 
 
-                    </main>
-                    <CardsFooter/>
+                        </Container>
+                    </section>
+
+
+                </main>
+                <CardsFooter/>
 
 
             </>
@@ -266,4 +281,4 @@ class johnTimer extends React.Component {
 
 };
 
-export default johnTimer;
+export default StandingTimer;

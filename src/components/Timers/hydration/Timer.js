@@ -6,6 +6,7 @@ import TimerButton from './TimerButton';
 import TimerConfig from './TimerConfig';
 import moment from 'moment';
 import * as timerStates from '../timerStates';
+import {Button, CardBody, CardHeader, Col, Container, Row} from "reactstrap";
 
 export default class Timer extends Component {
 
@@ -110,24 +111,67 @@ export default class Timer extends Component {
 
   render() {
     return (
-      <div>
-      <TimerHeader />
-      <Card style={{padding: "50px"}}>
-        <Card.Body>
-          <TimerDisplay currentTime={this.state.currentTime}/>
-          <TimerButton startTimer={this.startTimer}
-          stopTimer={this.stopTimer}
-          timerState={this.state.timerState}/>
-          {
-            (this.state.timerState !== timerStates.RUNNING)
-            &&
-            (<TimerConfig baseTime={this.state.baseTime} 
-            setBaseTime = {this.setBaseTime}
-            />)
-          }
-        </Card.Body>
-      </Card>
-    </div>
+        <main ref="main">
+
+          <section className="section section-shaped section-lg">
+            <div className="shape shape-style-1 bg-gradient-default">
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
+            <Container className="pt-lg-md">
+              <Row className="justify-content-center">
+                <Col lg="5">
+                  <Card className="bg-secondary shadow border-0">
+                    <CardHeader className="bg-white pb-5">
+                      <div className="text-center text-muted mb-4">
+                        <h1> Hydration Timer </h1>
+                        <medium>Drink a Glass of Water in:</medium>
+                        <TimerDisplay currentTime={this.state.currentTime} />
+
+                      </div>
+                      <div className="btn-wrapper text-center">
+
+
+
+                      </div>
+                    </CardHeader>
+                    <CardBody className="px-lg-5 py-lg-5">
+                      <div className="text-center mb-4">
+
+                      </div>
+                      <TimerButton startTimer={this.startTimer}
+                                   stopTimer={this.stopTimer}
+                                   timerState={this.state.timerState}/>
+                      {
+                        (this.state.timerState !== timerStates.RUNNING)
+                        &&
+                        (<TimerConfig baseTime={this.state.baseTime}
+                                      setBaseTime = {this.setBaseTime}
+                        />)
+                      }
+
+                    </CardBody>
+                  </Card>
+                  <Row className="mt-3">
+
+                  </Row>
+                </Col>
+              </Row>
+
+
+            </Container>
+          </section>
+
+
+        </main>
+
+
     )
   }
 }

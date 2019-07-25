@@ -14,12 +14,22 @@ export default class TimerConfig extends Component {
     var newBaseTime = moment.duration(0);
     if (event.target.id === 'work') {
       newBaseTime = moment.duration(25, 'minutes')
+      this.setState({
+        message: 'Work for:'
+      })
+
     }
     if (event.target.id === 'short') {
       newBaseTime = moment.duration(5, 'minutes')
+      this.setState({
+        message: 'Short break for:'
+      })
     }
     if (event.target.id === 'long') {
       newBaseTime = moment.duration(10, 'minutes')
+      this.setState({
+        message: 'Long break for:'
+      })
     }
 
     this.props.setBaseTime(newBaseTime);
@@ -47,4 +57,5 @@ export default class TimerConfig extends Component {
 
 TimerConfig.propTypes = {
   baseTime: PropTypes.object.isRequired,
+  message: PropTypes.object.isRequired
 }
