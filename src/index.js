@@ -33,10 +33,7 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-
-
-
-
+            
             <Route path="/timer" exact render={props => <Landing {...props} />} />
 
             <Redirect to="/" />
