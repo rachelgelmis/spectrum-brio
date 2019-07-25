@@ -8,7 +8,7 @@ import "assets/scss/argon-design-system-react.scss";
 
 import Index from "views/Index.jsx";
 import Landing from "views/Landing.jsx";
-import JohnTimer from "views/JohnTimer.jsx";
+import StandingTimer from "views/StandingTimer.jsx";
 import Login from "views/Login.jsx";
 import GymTracker from "views/GymTracker.jsx";
 
@@ -33,11 +33,11 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-            <Route path="/JohnTimer" exact render={props => <JohnTimer {...props} />} />
+            <Route path="/StandingTimer" exact render={props => <StandingTimer {...props} />} />
             <Route
-                path="/JohnTimer"
+                path="/StandingTimer"
                 exact
-                render={props => <JohnTimer {...props} />}
+                render={props => <StandingTimer {...props} />}
             />
             <Route path="/GymTracker" exact render={props => <GymTracker {...props} />} />
             <Route
