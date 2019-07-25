@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8faddcd-f921-46e6-8056-e0effe3ed037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/common/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/common/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/common/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/common/man-in-office-desk-with-computer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/icons/common/standing-desk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/JohnTimer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/StandingTimer.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="d8faddcd-f921-46e6-8056-e0effe3ed037" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/StandingTimer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="252" column="58" lean-forward="true" selection-start-line="252" selection-start-column="58" selection-end-line="252" selection-end-column="58" />
+            <state relative-caret-position="343">
+              <caret line="255" column="47" selection-start-line="255" selection-start-column="47" selection-end-line="255" selection-end-column="47" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -60,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1305">
-              <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -89,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91146">
-              <caret line="9572" column="19" lean-forward="true" selection-start-line="9572" selection-start-column="19" selection-end-line="9572" selection-end-column="19" />
+              <caret line="9572" column="19" selection-start-line="9572" selection-start-column="19" selection-end-line="9572" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -212,36 +203,6 @@
               <item name="spectrum-brio" type="b2602c69:ProjectViewProjectNode" />
               <item name="spectrum-brio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spectrum-brio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spectrum-brio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spectrum-brio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spectrum-brio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -314,12 +275,12 @@
       <workItem from="1563235658803" duration="7340000" />
       <workItem from="1563558872805" duration="4061000" />
       <workItem from="1563820581539" duration="1108000" />
-      <workItem from="1563891022664" duration="13533000" />
+      <workItem from="1563891022664" duration="13702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68548000" />
+    <option name="totallyTimeSpent" value="68717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,10 +292,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="455" y="38" width="815" height="729" extended-state="0" />
-    <editor active="true" />
+    <frame x="357" y="38" width="913" height="729" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8290398" visible="true" weight="0.23544632" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8290398" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" sideWeight="0.17096019" side_tool="true" weight="0.34416825" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,8 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -570,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
-          <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -580,7 +540,7 @@
     <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91146">
-          <caret line="9572" column="19" lean-forward="true" selection-start-line="9572" selection-start-column="19" selection-end-line="9572" selection-end-column="19" />
+          <caret line="9572" column="19" selection-start-line="9572" selection-start-column="19" selection-end-line="9572" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -603,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/StandingTimer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="252" column="58" lean-forward="true" selection-start-line="252" selection-start-column="58" selection-end-line="252" selection-end-column="58" />
+        <state relative-caret-position="343">
+          <caret line="255" column="47" selection-start-line="255" selection-start-column="47" selection-end-line="255" selection-end-column="47" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
