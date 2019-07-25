@@ -33,6 +33,7 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
+<<<<<<< HEAD
             <Route path="/StandingTimer" exact render={props => <StandingTimer {...props} />} />
             <Route
                 path="/StandingTimer"
@@ -54,6 +55,9 @@ ReactDOM.render(
 
 
 
+=======
+            
+>>>>>>> origin/develop
             <Route path="/timer" exact render={props => <Landing {...props} />} />
 
             <Redirect to="/" />
