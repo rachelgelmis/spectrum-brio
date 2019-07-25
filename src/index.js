@@ -33,6 +33,7 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
+
             <Route path="/JohnTimer" exact render={props => <JohnTimer {...props} />} />
             <Route
                 path="/JohnTimer"
@@ -45,6 +46,10 @@ ReactDOM.render(
                 exact
                 render={props => <GymTracker {...props} />}
             />
+  
+            <Route path="/timer" exact render={props => <Landing {...props} />} />
+
+            <Redirect to="/" />
             <Route path="/Index" exact render={props => <Index {...props} />} />
             <Route
                 path="/Index"
@@ -53,10 +58,6 @@ ReactDOM.render(
             />
 
 
-
-            <Route path="/timer" exact render={props => <Landing {...props} />} />
-
-            <Redirect to="/" />
         </Switch>
     </BrowserRouter>,
     document.getElementById("root")
