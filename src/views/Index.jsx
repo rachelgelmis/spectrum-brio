@@ -26,7 +26,7 @@ import Datepicker from "./IndexSections/Datepicker.jsx";
 import TooltipPopover from "./IndexSections/TooltipPopover.jsx";
 import Carousel from "./IndexSections/Carousel.jsx";
 import Icons from "./IndexSections/Icons.jsx";
-import Login from "./IndexSections/Login.jsx";
+import Login from "./IndexSections/Login.jsx/index.js";
 import Download from "./IndexSections/Download.jsx";
 
 class Index extends React.Component {
