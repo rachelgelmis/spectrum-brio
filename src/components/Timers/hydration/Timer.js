@@ -6,6 +6,9 @@ import TimerButton from './TimerButton';
 import TimerConfig from './TimerConfig';
 import moment from 'moment';
 import * as timerStates from '../timerStates';
+import WaterBottle from './WaterBottle';
+
+import { Progress } from 'reactstrap';
 
 export default class Timer extends Component {
 
@@ -17,6 +20,12 @@ export default class Timer extends Component {
       timerState: timerStates.NOT_SET,
       timer: null,
       count: 8,
+      progress: 0,
+      lidx: "17.5",
+      holderx: "52.5",
+      liquidx: "11",
+      liquidy: "91",
+      outlinex: "12.5",
     }
 
     this.setBaseTime = this.setBaseTime.bind(this);
@@ -25,6 +34,8 @@ export default class Timer extends Component {
     this.reduceTimer = this.reduceTimer.bind(this);
     this.reduceCount = this.reduceCount.bind(this);
     this.resetCount = this.resetCount.bind(this);
+    this.increaseProgress = this.increaseProgress.bind(this);
+    this.resetProgress = this.resetProgress.bind(this);
   }
 
   setBaseTime(newBaseTime) {
@@ -53,6 +64,9 @@ export default class Timer extends Component {
   }
 
   completeTimer() {
+
+    this.increaseProgress();
+
     if (this.state.timer) {
       clearInterval(this.state.timer);
     }
@@ -72,6 +86,7 @@ export default class Timer extends Component {
     && this.state.count === 1) {
       this.completeTimer();
       this.resetCount();
+      this.resetProgress();
       return;
     }
 
@@ -79,6 +94,7 @@ export default class Timer extends Component {
     && this.state.currentTime.get('minutes') === 0 
     && this.state.currentTime.get('seconds') === 0) {
       this.reduceCount();
+      this.increaseProgress();
       this.stopTimer();
       alert("Time for Water: Cup " + (8 - this.state.count));
       return;
@@ -92,10 +108,21 @@ export default class Timer extends Component {
     })
   }
 
+  increaseProgress() {
+    this.setState({
+      progress: this.state.progress + 12.5,
+      lidx: parseInt(this.state.lidx) + 150,
+      holderx: parseInt(this.state.holderx) + 150,
+      liquidx: parseInt(this.state.liquidx) + 150,
+      outlinex: parseInt(this.state.outlinex) + 150
+      
+    })
+  }
+
   reduceCount() {
     if (this.state.count !== 0) {
       this.setState({
-        count: this.state.count - 1
+        count: this.state.count - 1,
       })
     }
     return;
@@ -103,7 +130,18 @@ export default class Timer extends Component {
 
   resetCount() {
     this.setState({
-      count: 8
+      count: 8,
+    })
+    return;
+  }
+
+  resetProgress() {
+    this.setState({
+      progress: 0,
+      lidx: 17.5,
+      liquidx: 11,
+      holderx: 52.5,
+      outlinex: 12.5
     })
     return;
   }
@@ -125,6 +163,12 @@ export default class Timer extends Component {
             setBaseTime = {this.setBaseTime}
             />)
           }
+          <WaterBottle 
+          lidx = {this.state.lidx}
+          holderx = {this.state.holderx}
+          liquidx = {this.state.liquidx}
+          outlinex = {this.state.outlinex} />
+          <Progress color="info" value={this.state.progress} />
         </Card.Body>
       </Card>
     </div>

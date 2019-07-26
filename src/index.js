@@ -11,6 +11,7 @@ import Landing from "views/Landing.jsx";
 import Login from "views/Login.jsx";
 import Profile from "views/Profile.jsx";
 import Register from "views/Register.jsx";
+import Timer from "components/Timers/hydration/Timer";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -32,6 +33,13 @@ ReactDOM.render(
                 path="/landing-page"
                 exact
                 render={props => <Landing {...props} />}
+            />
+
+            <Route path="/hydration" exact render={props => <Timer {...props} />} />
+            <Route
+                path="/hydration"
+                exact
+                render={props => <Timer {...props} />}
             />
             
             <Route path="/timer" exact render={props => <Landing {...props} />} />
