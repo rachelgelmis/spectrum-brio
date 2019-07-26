@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8faddcd-f921-46e6-8056-e0effe3ed037" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/argon-design-system-react.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Timers/hydration/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timers/hydration/Timer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Timers/pomodoro/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timers/pomodoro/Timer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GymTracker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GymTracker.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/StandingTimer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/StandingTimer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/spectrum_brio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Landing.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,15 +86,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/StandingTimer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="666">
@@ -112,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
+            <state relative-caret-position="3060">
               <caret line="204" column="55" selection-start-line="204" selection-start-column="55" selection-end-line="204" selection-end-column="55" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -125,12 +110,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Tools/DatePickerComp.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/Landing.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
-                <element signature="e#534#712#0" expanded="true" />
+                <element signature="e#593#771#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/views/timerJohn.jsx" />
         <option value="$PROJECT_DIR$/src/views/Index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Navbars/DemoNavbar.jsx" />
-        <option value="$PROJECT_DIR$/src/views/Landing.jsx" />
         <option value="$PROJECT_DIR$/src/components/Footers/CardsFooter.jsx" />
         <option value="$PROJECT_DIR$/src/components/Alerts/GreenAlert.jsx" />
         <option value="$PROJECT_DIR$/src/views/Profile.jsx" />
@@ -208,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/components/Timers/pomodoro/Timer.js" />
         <option value="$PROJECT_DIR$/src/components/Timers/hydration/Timer.js" />
         <option value="$PROJECT_DIR$/src/views/GymTracker.jsx" />
+        <option value="$PROJECT_DIR$/src/views/Landing.jsx" />
       </list>
     </option>
   </component>
@@ -248,13 +245,6 @@
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -262,21 +252,59 @@
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="scss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="brand" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="scss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bootstrap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="icons" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="team" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="theme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Alerts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Footers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Navbars" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -307,19 +335,6 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="Tools" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -389,11 +404,11 @@
       <recent name="$PROJECT_DIR$/src/components/Timers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/brand" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/Timers/hydration" />
-      <recent name="$PROJECT_DIR$/src/views" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,12 +448,12 @@
       <workItem from="1563558872805" duration="4061000" />
       <workItem from="1563820581539" duration="1108000" />
       <workItem from="1563891022664" duration="796000" />
-      <workItem from="1564155091409" duration="6792000" />
+      <workItem from="1564155091409" duration="7875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72073000" />
+    <option name="totallyTimeSpent" value="73156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,13 +626,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Invite.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/Tools/DatePickerComp.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Timers/pomodoro/TimerConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -713,16 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Landing.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#534#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -752,16 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="11363" column="57" selection-start-line="11363" selection-start-column="57" selection-end-line="11363" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="104" column="17" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="104" selection-end-column="17" />
-          <folding>
-            <element signature="e#53#233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,10 +795,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="3060">
           <caret line="204" column="55" selection-start-line="204" selection-start-column="55" selection-end-line="204" selection-end-column="55" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tools/DatePickerComp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="104" column="17" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="104" selection-end-column="17" />
+          <folding>
+            <element signature="e#53#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Landing.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#593#771#0" expanded="true" />
           </folding>
         </state>
       </provider>
