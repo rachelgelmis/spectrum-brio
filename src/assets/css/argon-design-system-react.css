@@ -7219,7 +7219,7 @@ button.bg-darker:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #5e72e4 !important; }
+  color: #003057 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #324cdd !important; }
@@ -9086,8 +9086,8 @@ textarea[resize="horizontal"] {
     height: 30px; }
 
 .icon-shape-primary {
-  color: #2643e9;
-  background-color: rgba(138, 152, 235, 0.5); }
+  color: #003057;
+  background-color: rgba(120, 120, 120, 0.5); }
 
 .icon-shape-secondary {
   color: #d3d9e5;
@@ -10041,7 +10041,7 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-skew span {
       transform: skew(4deg); }
   .section-shaped .shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
+    background: linear-gradient(150deg, #003057 15%, #0099D8 70%, #787878 94%); }
     .section-shaped .shape-primary :nth-child(1) {
       background: #53f; }
     .section-shaped .shape-primary :nth-child(2) {
@@ -10085,7 +10085,7 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-dark :nth-child(3) {
       background: #25254d; }
     .section-shaped .shape-dark :nth-child(4) {
-      background: #d782d9; }
+      background: #787878; }
     .section-shaped .shape-dark :nth-child(5) {
       background: #008169; }
   .section-shaped .shape-style-1 span {
@@ -10159,9 +10159,9 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-style-1 span {
       height: 90px; } }
   .section-shaped .shape-style-1.shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
+    background: linear-gradient(150deg, #003057 15%, #0099D8 70%, ##787878 94%); }
   .section-shaped .shape-style-1.shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(150deg, #003057 15%, #0099D8 70%, #787878 94%); }
   .section-shaped .shape-style-1.shape-light {
     background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%); }
   .section-shaped .shape-style-1.shape-dark {

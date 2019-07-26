@@ -33,15 +33,7 @@ class Login extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <section className="section section-shaped section-lg">
-            <div className="shape shape-style-1 bg-gradient-default">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+            <div className="shape shape-style-1 shape-primary">
             </div>
             <Container className="pt-lg-md">
               <Row className="justify-content-center">
