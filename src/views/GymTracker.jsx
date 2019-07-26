@@ -151,22 +151,11 @@ class GymTracker extends React.Component{
 
     render(){
         return(
-
             <main ref="main">
-
                 <section className="section section-shaped section-lg">
-                    <div className="shape shape-style-1 bg-gradient-default">
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
-                        <span />
+                    <div className="shape shape-style-1 shape-primary">
                     </div>
                     <Container className="pt-lg-md">
-
                         <Row className="justify-content-center">
                             <Col lg="5">
                                 <Card className="bg-secondary shadow border-0">
@@ -188,12 +177,6 @@ class GymTracker extends React.Component{
                                             <medium>Or want to know how busy it is at a different time?</medium>
 
                                         </div>
-
-
-
-
-
-
                                         <Row className="justify-content-center">
                                             <DatePickerComp/>
                                         </Row>
@@ -230,28 +213,14 @@ class GymTracker extends React.Component{
                                         </Row>
 
 
-
                                     </CardBody>
-
-
-
-
-
-
-
                                 </Card>
-                                <Row className="mt-3">
-
-                                </Row>
                             </Col>
                         </Row>
-
-
                     </Container>
                 </section>
-
-
             </main>
+
 
         );
     }

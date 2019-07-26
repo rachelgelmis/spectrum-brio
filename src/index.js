@@ -73,6 +73,12 @@ ReactDOM.render(
                 exact
                 render={props => <GymTracker {...props} />}
             />
+            <Route path="/login" exact render={props => <Login {...props} />} />
+            <Route
+                path="/login"
+                exact
+                render={props => <Login {...props} />}
+            />
 
             <Route path="/timer" exact render={props => <Landing {...props} />} />
 

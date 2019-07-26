@@ -211,62 +211,47 @@ class StandingTimer extends React.Component {
 
 
             <>
-
                 <main ref="main">
-
                     <section className="section section-shaped section-lg">
-                        <div className="shape shape-style-1 bg-gradient-default">
-                            <span />
-                            <span />
-                            <span />
-                            <span />
-                            <span />
-                            <span />
-                            <span />
-                            <span />
+                        <div className="shape shape-style-1 shape-primary">
                         </div>
                         <Container className="pt-lg-md">
                             <Row className="justify-content-center">
                                 <Col lg="5">
                                     <Card className="bg-secondary shadow border-0">
                                         <CardHeader className="bg-white pb-5">
-                                            <div className="text-center text-muted mb-4">
-                                                <h1>{this.format(this.state.time)}</h1>
-                                                <img src={this.state.imgUrl} />
+                                            <Col lg="12">
+                                                <div className="text-center text-muted mb-4">
+                                                    <h1>{this.format(this.state.time)}</h1>
+                                                    <img src={this.state.imgUrl} />
+                                                </div>
+                                                <div className="btn-wrapper text-center">
+                                                    <Button color="primary" onClick={this.play}>Start</Button>
+                                                    <Button color="warning" onClick={this.reset}>Pause</Button>
 
-                                            </div>
-                                            <div className="btn-wrapper text-center">
-                                                <Button color="primary" onClick={this.play}>Start</Button>
-                                                <Button color="warning" onClick={this.reset}>Pause</Button>
 
-
-                                            </div>
+                                                </div>
+                                            </Col>
                                         </CardHeader>
                                         <CardBody className="px-lg-5 py-lg-5">
                                             <div className="text-center mb-4">
                                                 <medium>What Time Is It?</medium>
                                             </div>
+
                                             <Row className="justify-content-center">
                                                 <Button color="outline-primary" onClick={this.setTimeForCode}>Time To Sit</Button>
                                                 <Button color="outline-primary" onClick={this.setTimeForWater}>Time To Stand</Button>
 
                                             </Row>
-
                                         </CardBody>
                                     </Card>
-                                    <Row className="mt-3">
-
-                                    </Row>
                                 </Col>
                             </Row>
-
-
                         </Container>
                     </section>
-
-
                 </main>
-                <CardsFooter/>
+
+
 
 
             </>

@@ -151,7 +151,7 @@ export default class Timer extends Component {
         <main ref="main">
 
           <section className="section section-shaped section-lg">
-            <div className="shape shape-style-1 bg-gradient-default">
+            <div className="shape shape-style-1 shape-primary">
               <span />
               <span />
               <span />
