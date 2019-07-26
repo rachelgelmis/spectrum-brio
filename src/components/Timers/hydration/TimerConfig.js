@@ -45,12 +45,11 @@ export default class TimerConfig extends Component {
     return (
       <div className="timerconfig">
           <div className="form-group" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-              <label htmlFor="setTime">Set Time</label>
-              <input id="time" className="form-control" type="number" 
-              defaultValue={this.props.baseTime.get('minutes')} onChange={this.handleChange}></input>
+
+
               <select id="workday" min="6" max="12" className="form-control"
               defaultValue={this.props.baseTime.get('hours')} onChange={this.handleChange2}>
-                <option value="1">1</option>
+                <option value="1">How Many Hours Do You Work Today?</option>
                 <option value="6">6</option>
                 <option value="7">7</option>
                 <option value="8">8</option>

@@ -8,9 +8,11 @@ import "assets/scss/argon-design-system-react.scss";
 
 import Index from "views/Index.jsx";
 import Landing from "views/Landing.jsx";
-import JohnTimer from "views/JohnTimer.jsx";
+import StandingTimer from "views/StandingTimer.jsx";
 import Login from "views/Login.jsx";
 import GymTracker from "views/GymTracker.jsx";
+import HydrationTimer from "views/HydrationTimer.jsx";
+import PomTimer from "views/PomTimer";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -33,12 +35,24 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-
-            <Route path="/JohnTimer" exact render={props => <JohnTimer {...props} />} />
+            <Route path="/Pomodoro" exact render={props => <PomTimer {...props} />} />
             <Route
-                path="/JohnTimer"
+                path="/Pomodoro"
                 exact
-                render={props => <JohnTimer {...props} />}
+                render={props => <PomTimer {...props} />}
+            />
+            <Route path="/Hydration" exact render={props => <HydrationTimer {...props} />} />
+            <Route
+                path="/Hydration"
+                exact
+                render={props => <HydrationTimer {...props} />}
+            />
+
+            <Route path="/StandingTimer" exact render={props => <StandingTimer {...props} />} />
+            <Route
+                path="/StandingTimer"
+                exact
+                render={props => <StandingTimer {...props} />}
             />
             <Route path="/GymTracker" exact render={props => <GymTracker {...props} />} />
             <Route
@@ -46,7 +60,7 @@ ReactDOM.render(
                 exact
                 render={props => <GymTracker {...props} />}
             />
-  
+
             <Route path="/timer" exact render={props => <Landing {...props} />} />
 
             <Redirect to="/" />
