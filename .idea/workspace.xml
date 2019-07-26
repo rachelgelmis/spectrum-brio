@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8faddcd-f921-46e6-8056-e0effe3ed037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/spectrum_brio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/mountains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/team/emma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/team/freya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/team/macy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/alex.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/team/alex.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/anny.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/team/anny.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/emma.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/freya.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/john.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/team/john.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/macy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/patrick.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/team/patrick.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/rachel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/team/rachel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/custom/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,37 +32,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/HydrationTimer.jsx">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="11363" column="57" selection-start-line="11363" selection-start-column="57" selection-end-line="11363" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Timers/pomodoro/Timer.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/custom/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="96" column="63" selection-start-line="96" selection-start-column="63" selection-end-line="96" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Timers/hydration/Timer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="150" column="25" lean-forward="true" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="887" selection-start-line="887" selection-end-line="887" />
             </state>
           </provider>
         </entry>
@@ -55,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
+            <state relative-caret-position="1083">
               <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -65,10 +62,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.css">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="11363" column="57" selection-start-line="11363" selection-start-column="57" selection-end-line="11363" selection-end-column="57" />
+            <state relative-caret-position="1410">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/react/react-differences.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -76,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="104" column="17" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="104" selection-end-column="17" />
+            <state relative-caret-position="1560">
+              <caret line="104" column="17" selection-start-line="33" selection-start-column="10" selection-end-line="104" selection-end-column="17" />
               <folding>
                 <element signature="e#53#233#0" expanded="true" />
               </folding>
@@ -86,22 +101,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/StandingTimer.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="253" selection-start-line="253" selection-end-line="253" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="204" column="55" selection-start-line="204" selection-start-column="55" selection-end-line="204" selection-end-column="55" />
+            <state relative-caret-position="342">
+              <caret line="222" selection-start-line="222" selection-end-line="222" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -113,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Tools/DatePickerComp.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -124,10 +127,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/Landing.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            <state relative-caret-position="-61">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
-                <element signature="e#593#771#0" expanded="true" />
+                <element signature="e#71#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +165,10 @@
       <find>coffee</find>
       <find>pause</find>
       <find>status</find>
+      <find>.shape-style-1</find>
+      <find>.shape-style-1.shape</find>
+      <find>linear-gradient</find>
+      <find>.section-shaped .shape-style-1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,11 +198,8 @@
         <option value="$PROJECT_DIR$/src/components/typescriptApp/TypeTest.tsx" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/components/typescriptApp/WaterBottleType.tsx" />
-        <option value="$PROJECT_DIR$/src/views/data/index.js" />
         <option value="$PROJECT_DIR$/src/components/Timers/hydration/TimerConfig.js" />
         <option value="$PROJECT_DIR$/src/components/Timers/hydration/WaterBottle.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss" />
-        <option value="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css" />
         <option value="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css.map" />
         <option value="$PROJECT_DIR$/src/assets/css/argon-design-system-react.min.css" />
         <option value="$PROJECT_DIR$/src/views/Login.jsx" />
@@ -203,15 +207,21 @@
         <option value="$PROJECT_DIR$/src/views/StandingTimer.jsx" />
         <option value="$PROJECT_DIR$/src/components/Timers/pomodoro/Timer.js" />
         <option value="$PROJECT_DIR$/src/components/Timers/hydration/Timer.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/react/react-differences.scss" />
+        <option value="$PROJECT_DIR$/src/views/style.css" />
         <option value="$PROJECT_DIR$/src/views/GymTracker.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/css/argon-design-system-react.css" />
+        <option value="$PROJECT_DIR$/src/assets/scss/custom/_variables.scss" />
         <option value="$PROJECT_DIR$/src/views/Landing.jsx" />
+        <option value="$PROJECT_DIR$/src/views/data/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="60" />
-    <option name="width" value="808" />
+    <option name="x" value="-1837" />
+    <option name="y" value="91" />
+    <option name="width" value="1323" />
     <option name="height" value="676" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -253,22 +263,6 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="brand" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="icons" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="team" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -276,65 +270,21 @@
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="theme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="custom" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Alerts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Footers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Navbars" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Timers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Timers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hydration" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Timers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pomodoro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="spectrum-brio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="brio_frontend" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Tools" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -404,11 +354,11 @@
       <recent name="$PROJECT_DIR$/src/components/Timers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/team" />
       <recent name="$PROJECT_DIR$/src/assets/img/brand" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/Timers/hydration" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,12 +398,12 @@
       <workItem from="1563558872805" duration="4061000" />
       <workItem from="1563820581539" duration="1108000" />
       <workItem from="1563891022664" duration="796000" />
-      <workItem from="1564155091409" duration="7875000" />
+      <workItem from="1564155091409" duration="10609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73156000" />
+    <option name="totallyTimeSpent" value="75890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,11 +415,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="60" width="808" height="676" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1837" y="91" width="1323" height="676" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8290398" visible="true" weight="0.3093995" />
-      <window_info id="Structure" order="1" sideWeight="0.17096019" side_tool="true" weight="0.34416825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8270142" visible="true" weight="0.18501171" />
+      <window_info id="Structure" order="1" sideWeight="0.17298578" side_tool="true" visible="true" weight="0.18501171" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="aws.explorer" order="4" side_tool="true" />
@@ -507,12 +456,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/img/team/Screen Shot 2019-06-24 at 12.34.57 AM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/icons/common/github.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/IndexSections/Alerts.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -707,30 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -743,13 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="144" column="1" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="11363" column="57" selection-start-line="11363" selection-start-column="57" selection-end-line="11363" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -786,17 +698,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Timers/hydration/Timer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="150" column="25" lean-forward="true" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="204" column="55" selection-start-line="204" selection-start-column="55" selection-end-line="204" selection-end-column="55" />
+          <caret line="150" column="25" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -806,29 +708,84 @@
     <entry file="file://$PROJECT_DIR$/src/components/Tools/DatePickerComp.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/argon-design-system-react.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Login.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="104" column="17" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="104" selection-end-column="17" />
+        <state relative-caret-position="1560">
+          <caret line="104" column="17" selection-start-line="33" selection-start-column="10" selection-end-line="104" selection-end-column="17" />
           <folding>
             <element signature="e#53#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/react/react-differences.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/GymTracker.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/argon-design-system-react.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11363" column="57" selection-start-line="11363" selection-start-column="57" selection-end-line="11363" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/custom/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="887" selection-start-line="887" selection-end-line="887" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Landing.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="-61">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
-            <element signature="e#593#771#0" expanded="true" />
+            <element signature="e#71#107#0" expanded="true" />
           </folding>
         </state>
       </provider>

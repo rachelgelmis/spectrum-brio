@@ -2,13 +2,13 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import alex from "../assets/img/team/alex.jpg";
-import freya from "../assets/img/team/freya.jpeg";
+import freya from "../assets/img/team/freya.jpg";
 import patrick from "../assets/img/team/patrick.jpg";
 import rachel from "../assets/img/team/rachel.jpg";
 import john from "../assets/img/team/john.jpg";
 import anny from "../assets/img/team/anny.jpg";
-import macy from "../assets/img/team/macy.jpeg";
-import emma from "../assets/img/team/emma.jpeg";
+import macy from "../assets/img/team/macy.jpg";
+import emma from "../assets/img/team/emma.jpg";
 import brioLogo from "../assets/img/brand/spectrum_brio.png";
 
 
