@@ -13,6 +13,7 @@ import Login from "views/Login.jsx";
 import GymTracker from "views/GymTracker.jsx";
 import HydrationTimer from "views/HydrationTimer.jsx";
 import PomTimer from "views/PomTimer";
+import WaterBottle from "components/Tools/WaterBottle.jsx";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -34,6 +35,18 @@ ReactDOM.render(
                 path="/landing-page"
                 exact
                 render={props => <Landing {...props} />}
+            />
+            <Route path="/register" exact render={props => <WaterBottle {...props} />} />
+            <Route
+                path="/register"
+                exact
+                render={props => <WaterBottle {...props} />}
+            />
+            <Route path="/WaterBottle" exact render={props => <WaterBottle {...props} />} />
+            <Route
+                path="/WaterBottle"
+                exact
+                render={props => <WaterBottle {...props} />}
             />
             <Route path="/Pomodoro" exact render={props => <PomTimer {...props} />} />
             <Route

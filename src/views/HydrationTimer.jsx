@@ -5,7 +5,9 @@ class HydrationTimer extends React.Component {
 
     render() {
         return (
+
             <Timer />
+
         )
     }
 

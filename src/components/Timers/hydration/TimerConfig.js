@@ -66,4 +66,5 @@ export default class TimerConfig extends Component {
 
 TimerConfig.propTypes = {
   baseTime: PropTypes.object.isRequired,
+
 }
