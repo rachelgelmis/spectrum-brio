@@ -8,31 +8,28 @@ export default class TimerConfig extends Component {
     super();
 
     this.handleChange = this.handleChange.bind(this);
+
   }
 
   handleChange(event) {
     var newBaseTime = moment.duration(0);
+    var msg = "";
     if (event.target.id === 'work') {
       newBaseTime = moment.duration(25, 'minutes')
-      this.setState({
-        message: 'Work for:'
-      })
+      msg = 'Work for: '
 
     }
     if (event.target.id === 'short') {
       newBaseTime = moment.duration(5, 'minutes')
-      this.setState({
-        message: 'Short break for:'
-      })
+      msg = 'Short Break for: '
     }
     if (event.target.id === 'long') {
       newBaseTime = moment.duration(10, 'minutes')
-      this.setState({
-        message: 'Long break for:'
-      })
+      msg = 'Long Break for: '
     }
 
     this.props.setBaseTime(newBaseTime);
+    this.props.setMessage(msg);
   }
 
   render() {

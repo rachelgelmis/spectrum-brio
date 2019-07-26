@@ -17,13 +17,14 @@ export default class Timer extends Component {
       baseTime: moment.duration(25, 'minutes'),
       timerState: timerStates.NOT_SET,
       timer: null,
-      message: ""
+      message: "Work for: "
     }
 
     this.setBaseTime = this.setBaseTime.bind(this);
     this.startTimer = this.startTimer.bind(this);
     this.stopTimer = this.stopTimer.bind(this);
     this.reduceTimer = this.reduceTimer.bind(this);
+    this.setMessage = this.setMessage.bind(this);
   }
 
   setBaseTime(newBaseTime) {
@@ -62,6 +63,12 @@ export default class Timer extends Component {
     });
 
     alert("Time is up!")
+  }
+
+  setMessage(message) {
+    this.setState({
+      message: message
+    });
   }
 
   reduceTimer() {
@@ -125,6 +132,7 @@ export default class Timer extends Component {
                         (this.state.timerState !== timerStates.RUNNING)
                         &&
                         (<TimerConfig message={this.state.message}
+                                      setMessage={this.setMessage}
                                       baseTime={this.state.baseTime}
                                       setBaseTime = {this.setBaseTime}
                         />)
