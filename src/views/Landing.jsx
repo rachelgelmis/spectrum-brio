@@ -105,13 +105,13 @@ class Landing extends React.Component {
                             </div>
 
                             <h6 className="text-primary text-uppercase">
-                              Physical Health
+                              Physical
                             </h6>
                             <Button
                                 className="mt-4"
                                 color="primary"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
+                                href="http://localhost:3000/login"
+                                onClick={e => e.handleClick()}
                             >
                               View
                             </Button>
@@ -125,7 +125,7 @@ class Landing extends React.Component {
                               <i className="ni ni-atom" />
                             </div>
                             <h6 className="text-primary text-uppercase">
-                              Mental Health
+                              Mental
                             </h6>
 
                             <Button

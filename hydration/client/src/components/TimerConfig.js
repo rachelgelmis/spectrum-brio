@@ -50,6 +50,7 @@ export default class TimerConfig extends Component {
               defaultValue={this.props.baseTime.get('minutes')} onChange={this.handleChange}></input>
               <select id="workday" min="6" max="12" className="form-control"
               defaultValue={this.props.baseTime.get('hours')} onChange={this.handleChange2}>
+                <option value="0.01">test</option>
                 <option value="1">1</option>
                 <option value="6">6</option>
                 <option value="7">7</option>

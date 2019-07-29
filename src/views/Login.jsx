@@ -1,7 +1,11 @@
 import React from "react";
+import standing from "../assets/img/brand/Standing.png";
+import hydration from "../assets/img/brand/hydration.png";
+import gym from "../assets/img/brand/gym.png";
 
 // reactstrap components
 import {
+  Badge,
   Button,
   Card,
   CardHeader,
@@ -32,76 +36,132 @@ class Login extends React.Component {
         <>
 
           <main ref="main">
-            <section className="section section-shaped section-lg">
-              <div className="shape shape-style-1 shape-primary">
-              </div>
-              <Container className="pt-lg-md">
-                <Row className="justify-content-center">
-                  <Col lg="5">
-                    <Card className="bg-secondary shadow border-0">
-                      <CardHeader className="bg-white pb-5">
-                        <Col lg="12">
-                          <h3 className="display-2">Features</h3>
-                        </Col>
-                      </CardHeader>
-                      <CardBody className="px-lg-5 py-lg-5">
-                        <div className="text-center text-muted mb-4">
-                          <small>Or sign in with credentials</small>
-                        </div>
-                        <Form role="form">
-                          <FormGroup className="mb-3">
-                            <InputGroup className="input-group-alternative">
-                              <InputGroupAddon addonType="prepend">
-                                <InputGroupText>
-                                  <i className="ni ni-email-83" />
-                                </InputGroupText>
-                              </InputGroupAddon>
-                              <Input placeholder="Email" type="email" />
-                            </InputGroup>
-                          </FormGroup>
-                          <FormGroup>
-                            <InputGroup className="input-group-alternative">
-                              <InputGroupAddon addonType="prepend">
-                                <InputGroupText>
-                                  <i className="ni ni-lock-circle-open" />
-                                </InputGroupText>
-                              </InputGroupAddon>
-                              <Input
-                                  placeholder="Password"
-                                  type="password"
-                                  autoComplete="off"
-                              />
-                            </InputGroup>
-                          </FormGroup>
-                          <div className="custom-control custom-control-alternative custom-checkbox">
-                            <input
-                                className="custom-control-input"
-                                id=" customCheckLogin"
-                                type="checkbox"
-                            />
-                            <label
-                                className="custom-control-label"
-                                htmlFor=" customCheckLogin"
-                            >
-                              <span>Remember me</span>
-                            </label>
-                          </div>
-                          <div className="text-center">
+              {/* shape Hero */}
+              <section className="section section-sm section-shaped pb-250">
+                <div className="shape shape-style-1 shape-primary">
+                </div>
+                <Container className="py-lg-md d-flex">
+                  <div className="col px-0">
+                    <Row>
+                      <Col lg="7">
+                        <h1 className="display-1 text-white">
+                          {" "}
+                          <span>Physical Health</span>
+                        </h1>
+                        <p className="lead text-white">
+                          The goal of these features are to get employees up and moving throughout the workday. Studies show that [statistic about exercise] improves productivity, focus, etc [x amount]
+                        </p>
+                      </Col>
+                    </Row>
+                  </div>
+                </Container>
+
+              </section>
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="3">
+                  <img
+                    alt="..."
+                    className="img-fluid shadow floating"
+                    src={standing}
+                  />
+                </Col>
+                <Col className="order-md-2" md="8">
+                  <div className="pr-md-3">
+                    <h3>Standing Desk Timer</h3>
+                    <p>
+                      This timer is designed to encourage employees to utilize their standing desks. It allows for 45 minutes of standing with 15 minutes of sitting per hour.
+                    </p>
+                    <div className="d-flex align-items-center">
                             <Button
-                                className="my-4"
+                                className="mt-4"
                                 color="primary"
-                                type="button"
+                                href="http://localhost:3000/StandingTimer"
+                                onClick={e => e.handleClick()}
                             >
-                              Sign in
+                              View
                             </Button>
-                          </div>
-                        </Form>
-                      </CardBody>
-                    </Card>
-                  </Col>
-                </Row>
-              </Container>
-            </section>
+                        </div>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="3">
+                  <img
+                    alt="..."
+                    className="img-fluid shadow floating"
+                    src={hydration}
+                  />
+                </Col>
+                <Col className="order-md-2" md="8">
+                  <div className="pr-md-3">
+                    <h3>Hydration Timer</h3>
+                    <p>
+                      The average adult needs to drink 8 cups of water per day. This timer reminds employees to drink a designated amount of water in timed intervals based on the duration of their workday.
+                    </p>
+                    <div className="d-flex align-items-center">
+                            <Button
+                                className="mt-4"
+                                color="primary"
+                                href="http://localhost:3000/Hydration"
+                                onClick={e => e.handleClick()}
+                            >
+                              View
+                            </Button>
+                        </div>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="3">
+                  <img
+                    alt="..."
+                    className="img-fluid shadow floating"
+                    src={gym}
+                  />
+                </Col>
+                <Col className="order-md-2" md="8">
+                  <div className="pr-md-3">
+                    <h3>Gym Tracker</h3>
+                    <p>
+                      Did you know Spectrum has a gym in Village Center Station? This app shows users how busy the gym is at a selected time and date. You can even invite your friends to the gym with you!
+                    </p>
+                    <div className="d-flex align-items-center">
+                            <Button
+                                className="mt-4"
+                                color="primary"
+                                href="http://localhost:3000/GymTracker"
+                                onClick={e => e.handleClick()}
+                            >
+                              View
+                            </Button>
+                        </div>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
           </main>
         </>
     );

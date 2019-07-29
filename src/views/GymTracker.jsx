@@ -162,7 +162,7 @@ class GymTracker extends React.Component{
                                     <CardHeader className="bg-white pb-5">
                                         <div className="text-center text-muted mb-4">
                                             <h1>{this.state.traffic.status}</h1>
-                                            <h3>About {this.state.traffic.pings} people</h3>
+                                            <h3>Gym Tracker {this.state.traffic.pings} </h3>
                                         </div>
                                         <div className="btn-wrapper text-center">
                                             <Button color="primary">Refresh</Button>
@@ -174,7 +174,7 @@ class GymTracker extends React.Component{
                                     <CardBody className="px-lg-5 py-lg-5">
                                         <div className="text-center mb-4">
 
-                                            <medium>Or want to know how busy it is at a different time?</medium>
+                                            <medium>Select a time and date to see how busy the gym is:</medium>
 
                                         </div>
                                         <Row className="justify-content-center">
