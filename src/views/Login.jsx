@@ -49,7 +49,7 @@ class Login extends React.Component {
                           <span>Physical Health</span>
                         </h1>
                         <p className="lead text-white">
-                          The goal of these features are to get employees up and moving throughout the workday. Studies show that [statistic about exercise] improves productivity, focus, etc [x amount]
+                          The goal of these features are to get employees up and moving throughout the workday. Studies show that an hour a day of exercise can help mediate the risks of sedentary lifestyle, which include heart disease and cancer. Evidence also indicates that instituting workplace health programs can reduce the average sick leave, health plan, and workers’ compensation and disability insurance costs by approximately 25%
                         </p>
                       </Col>
                     </Row>
