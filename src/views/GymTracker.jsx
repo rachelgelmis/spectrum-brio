@@ -5,6 +5,9 @@ import DatePickerComp from "components/Tools/DatePickerComp.jsx";
 import SelectSearch from 'react-select-search';
 import './style.css';
 import {friends} from './data';
+import wall from "../assets/img/brand/gym1.jpg";
+import weights from "../assets/img/brand/gym3.jpg";
+import equipment from "../assets/img/brand/gym2.jpg";
 
 import {
     Button,
@@ -219,9 +222,54 @@ class GymTracker extends React.Component{
                         </Row>
                     </Container>
                 </section>
+                <section className="section section-lg">
+            <Container>
+              <Row className="justify-content-center text-center mb-lg">
+                  <Col lg="8">
+                    <h2 className="display-2">About the Gym:</h2>
+                    <p className="lead text-muted">
+                      Spectrum has a gym located in the bottom floor of Village Center Station. Simply fill out the gym access form and give it to building security to access!
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                      </li>
+                    </ul>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+
+          <section className="section section-lg">
+          <Row className ="row-grid align-items-center">
+            <Col className="order-md-1" md="15">
+            <img
+                alt="..."
+                className="card-img"
+                src={wall}
+            />
+            </Col>
+            </Row>
+            <Row className ="row-grid align-items-center">
+            <Col className="order-md-1" md="15">
+            <img
+                alt="..."
+                className="card-img"
+                src={equipment}
+            />
+            </Col>
+            </Row>
+            <Row className ="row-grid align-items-center">
+            <Col className="order-md-1" md="15">
+            <img
+                alt="..."
+                className="card-img"
+                src={weights}
+            />
+            </Col>
+            </Row>
+
+          </section>
             </main>
-
-
         );
     }
 };

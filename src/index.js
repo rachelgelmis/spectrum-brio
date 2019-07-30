@@ -14,6 +14,8 @@ import GymTracker from "views/GymTracker.jsx";
 import HydrationTimer from "views/HydrationTimer.jsx";
 import PomTimer from "views/PomTimer";
 import WaterBottle from "components/Tools/WaterBottle.jsx";
+import Profile from "views/Profile.jsx";
+import Register from "views/Register.jsx";
 
 //ADD PAGES BY FOLLOWING UP SYNTAX
 //import <pageName> from "views/<fileName>.jsx"
@@ -36,11 +38,11 @@ ReactDOM.render(
                 exact
                 render={props => <Landing {...props} />}
             />
-            <Route path="/register" exact render={props => <WaterBottle {...props} />} />
+            <Route path="/Social" exact render={props => <Profile {...props} />} />
             <Route
-                path="/register"
+                path="/Social"
                 exact
-                render={props => <WaterBottle {...props} />}
+                render={props => <Profile {...props} />}
             />
             <Route path="/WaterBottle" exact render={props => <WaterBottle {...props} />} />
             <Route
@@ -73,11 +75,17 @@ ReactDOM.render(
                 exact
                 render={props => <GymTracker {...props} />}
             />
-            <Route path="/login" exact render={props => <Login {...props} />} />
+            <Route path="/Physical" exact render={props => <Login {...props} />} />
             <Route
-                path="/login"
+                path="/Physical"
                 exact
                 render={props => <Login {...props} />}
+            />
+            <Route path="/Mental" exact render={props => <Register {...props} />} />
+            <Route
+                path="/Mental"
+                exact
+                render={props => <Register {...props} />}
             />
 
             <Route path="/timer" exact render={props => <Landing {...props} />} />
@@ -89,8 +97,6 @@ ReactDOM.render(
                 exact
                 render={props => <Index {...props} />}
             />
-
-
         </Switch>
     </BrowserRouter>,
     document.getElementById("root")

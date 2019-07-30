@@ -71,7 +71,7 @@ class Login extends React.Component {
                   <div className="pr-md-3">
                     <h3>Standing Desk Timer</h3>
                     <p>
-                      This timer is designed to encourage employees to utilize their standing desks. It allows for 45 minutes of standing with 15 minutes of sitting per hour.
+                      This timer is designed to encourage employees to utilize their standing desks. It allows 15 minutes of standing with a 1 minute sitting break.
                     </p>
                     <div className="d-flex align-items-center">
                             <Button

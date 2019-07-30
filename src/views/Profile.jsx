@@ -1,11 +1,27 @@
 import React from "react";
+import outlook from "../assets/img/brand/outlook.png";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import {
+  Badge,
+  Button,
+  Card,
+  CardHeader,
+  CardBody,
+  FormGroup,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import SimpleFooter from "components/Footers/SimpleFooter.jsx";
+//import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
+//import SimpleFooter from "components/Footers/SimpleFooter.jsx";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -15,136 +31,62 @@ class Profile extends React.Component {
   }
   render() {
     return (
-      <>
-        <DemoNavbar />
-        <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
-            {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </div>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section>
-          <section className="section">
-            <Container>
-              <Card className="card-profile shadow mt--300">
-                <div className="px-4">
-                  <Row className="justify-content-center">
-                    <Col className="order-lg-2" lg="3">
-                      <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          <img
-                            alt="..."
-                            className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
-                          />
-                        </a>
-                      </div>
-                    </Col>
-                    <Col
-                      className="order-lg-3 text-lg-right align-self-lg-center"
-                      lg="4"
-                    >
-                      <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
-                          className="mr-4"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Connect
-                        </Button>
-                        <Button
-                          className="float-right"
-                          color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Message
-                        </Button>
-                      </div>
-                    </Col>
-                    <Col className="order-lg-1" lg="4">
-                      <div className="card-profile-stats d-flex justify-content-center">
-                        <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
-                        </div>
-                        <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
-                        </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                  <div className="text-center mt-5">
-                    <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
-                    </h3>
-                    <div className="h6 font-weight-300">
-                      <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
-                    </div>
-                    <div className="h6 mt-4">
-                      <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
-                    </div>
-                    <div>
-                      <i className="ni education_hat mr-2" />
-                      University of Computer Science
-                    </div>
-                  </div>
-                  <div className="mt-5 py-5 border-top text-center">
-                    <Row className="justify-content-center">
-                      <Col lg="9">
-                        <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+        <>
+
+          <main ref="main">
+              {/* shape Hero */}
+              <section className="section section-sm section-shaped pb-250">
+                <div className="shape shape-style-1 shape-primary">
+                </div>
+                <Container className="py-lg-md d-flex">
+                  <div className="col px-0">
+                    <Row>
+                      <Col lg="7">
+                        <h1 className="display-1 text-white">
+                          {" "}
+                          <span>Social Health</span>
+                        </h1>
+                        <p className="lead text-white">
+                          Many studies show that socialization is important both at home and in the workplace. Team Brio's proposed features are meant to encourage socialization amongst coworkers, by providing
+                          a user-friendly, easy method for planning outings with your coworkers. Team Brio proposes an application, accessible either through the Brio website or Panorama, that
+                          makes it easy to create events and invite people, and sends it directly to your Outlook calendar. Events include (but are not limited to): exercise classes, walks, lunches, and other group activities!
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>
-                </div>
-              </Card>
+                </Container>
+
+              </section>
+              <Container>
+              <Row className="justify-content-center text-center mb-lg">
+                  <Col lg="8">
+                    <h2 className="display-2">Sample Event in Outlook</h2>
+                    <p className="lead text-muted">
+                    With outlook integration you will be able to instantly schedule your walks with friends with a couple clicks and integrate it into your busy work life.                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                      </li>
+                    </ul>
+                </Col>
+              </Row>
             </Container>
-          </section>
-        </main>
-        <SimpleFooter />
-      </>
+          
+          
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                      </li>
+                    </ul>
+                    <Row className ="row-grid align-items-center">
+            <Col className="order-md-1" md="15">
+            <img
+                alt="..."
+                className="card-img"
+                src={outlook}
+            />
+            </Col>
+            </Row>
+          </main>
+        </>
     );
   }
 }

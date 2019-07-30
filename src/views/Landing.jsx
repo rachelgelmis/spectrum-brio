@@ -110,7 +110,7 @@ class Landing extends React.Component {
                             <Button
                                 className="mt-4"
                                 color="primary"
-                                href="http://localhost:3000/login"
+                                href="http://localhost:3000/Physical"
                                 onClick={e => e.handleClick()}
                             >
                               View
@@ -131,8 +131,8 @@ class Landing extends React.Component {
                             <Button
                                 className="mt-4"
                                 color="primary"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
+                                href="http://localhost:3000/Mental"
+                                onClick={e => e.handleClick()}
                             >
                               View
                             </Button>
@@ -153,8 +153,8 @@ class Landing extends React.Component {
                             <Button
                                 className="mt-4"
                                 color="primary"
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
+                                href="http://localhost:3000/Social"
+                                onClick={e => e.handleClick()}
                             >
                               View
                             </Button>
